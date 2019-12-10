@@ -1,0 +1,26 @@
+
+//user authentication actions
+export const UI_START_LOADING = "UI_START_LOADING";
+export const UI_STOP_LOADING = "UI_STOP_LOADING";
+
+export const AUTH_VERIFY_ID = "AUTH_VERIFY_ID";
+export const AUTH_SET_PHONE = "AUTH_SET_PHONE";
+export const AUTH_DATA = "AUTH_DATA";
+export const AUTH_CREDENTIAL = "AUTH_CREDENTIAL";
+
+export const LOG_OUT = "LOG_OUT";
+
+//user session actions
+export const SESSION_RESTORING = "SESSION_RESTORING";
+export const SESSION_LOADING = "SESSION_LOADING";
+export const SESSION_SUCCESS = "SESSION_SUCCESS";
+export const SESSION_ERROR = "SESSION_ERROR";
+export const SESSION_LOGOUT = "SESSION_LOGOUT";
+
+//chat actions
+export const CHAT_MESSAGE_LOADING = "CHAT_MESSAGE_LOADING";
+export const CHAT_MESSAGE_SUCCESS = "CHAT_MESSAGE_SUCCESS";
+export const CHAT_MESSAGE_ERROR = "CHAT_MESSAGE_ERROR";
+export const CHAT_MESSAGE_UPDATE = "CHAT_MESSAGE_UPDATE";
+export const CHAT_LOAD_MESSAGES_SUCCESS = "CHAT_LOAD_MESSAGES_SUCCESS";
+export const CHAT_LOAD_MESSAGES_ERROR = "CHAT_LOAD_MESSAGES_ERROR";

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "418034075922",
+    "firebase_url": "https://bwi-business-app.firebaseio.com",
+    "project_id": "bwi-business-app",
+    "storage_bucket": "bwi-business-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418034075922:android:19acf6e6156c9cb5",
+        "android_client_info": {
+          "package_name": "com.bwi.businessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418034075922-rechsfb9v9qsj3t8k6kr3q2kpe8iafpl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bwi.businessapp",
+            "certificate_hash": "dcb99c09b121a2914d7d649f4d41883de62ce18e"
+          }
+        },
+        {
+          "client_id": "418034075922-9a76hdr5454tp8bc58tp0negkhimste5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD33VYlC8EX52nDZFCHbwvHIjurWK5R8K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418034075922-9a76hdr5454tp8bc58tp0negkhimste5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "418034075922-t9jsca3tmj3pv1f6oluchjbqqsl36euu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bwi.businessapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "com.bwi.businessapp",
+  "version": "5.4.0",
+  "private": true,
+  "scripts": {
+    "android-bundle": "ORG_GRADLE_PROJECT_bundleInDev=true npm run android",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator=\"iPhone X\"",
+    "apk": "cd android && ./gradlew assembleRelease",
+    "rename": "node ./bin/rename.js",
+    "start": "react-native start",
+    "test": "jest",
+    "and": "cd ./android && ./gradlew app:assembleDebug && ./gradlew installDebug"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "native-base": "^2.12.1",
+    "path": "^0.12.7",
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-draggable-flatlist": "^1.1.7",
+    "react-native-easy-grid": "^0.2.1",
+    "react-native-firebase": "^5.5.4",
+    "react-native-i18n": "^2.0.15",
+    "react-native-image-gallery": "^2.1.5",
+    "react-native-loading-spinner-overlay": "^1.0.1",
+    "react-native-navigation": "^2.22.1",
+    "react-native-numeric-input": "^1.8.1",
+    "react-native-otp-inputs": "^3.2.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "fs-extra": "^7.0.1",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3",
+    "replace-in-file": "^3.4.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
